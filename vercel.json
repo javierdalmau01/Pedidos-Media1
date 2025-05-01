@@ -1,10 +1,29 @@
 {
   "framework": "vite",
   "rewrites": [
-    { "source": "/cliente", "destination": "/index.html" },
-    { "source": "/admin", "destination": "/index.html" },
-    { "source": "/login", "destination": "/index.html" },
-    { "source": "/pedido/:id", "destination": "/index.html" },
-    { "source": "/confirmacion", "destination": "/index.html" }
+    {
+      "source": "/cliente",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/login",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/pedido/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/confirmacion",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/*",
+      "destination": "/index.html"
+    }
   ]
 }
