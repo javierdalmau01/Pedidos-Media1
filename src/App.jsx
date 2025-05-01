@@ -8,7 +8,6 @@ import PedidoDetalle from "./pages/PedidoDetalle";
 import FormularioCliente from "./pages/FormularioCliente";
 import ConfirmacionPedido from "./pages/ConfirmacionPedido";
 import { Toaster } from "react-hot-toast";
-import "react-hot-toast/dist/index.css";
 
 export default function App() {
   const [modoOscuro, setModoOscuro] = React.useState(() => localStorage.getItem("modoOscuro") === "true");
